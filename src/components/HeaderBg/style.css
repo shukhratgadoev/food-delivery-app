@@ -1,0 +1,78 @@
+.conteiner {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.header-bg-wrap {
+	position: relative;
+}
+.header-bg-text {
+	position: absolute;
+	top: 73px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+	text-align: center;
+	color: #fff;
+}
+
+.header-bg-text > span {
+	font-size: 24px;
+	font-family: MontserratBold;
+}
+
+.header-bg-text > h1 {
+	font-size: 58px;
+	max-width: 1005px;
+	font-family: PoppinsBold;
+	line-height: 80px;
+	margin-top: 17px;
+	margin-bottom: 17px;
+}
+
+.header-bg-text > h4 {
+	margin: 0;
+	font-size: 24px;
+	font-family: MontserratMedium;
+	margin-bottom: 54px;
+}
+
+.header-bg-buttons {
+	position: absolute;
+	width: 100%;
+	bottom: 175px;
+	z-index: 999;
+}
+
+.header-bg-buttons button {
+	border-radius: 30px;
+	margin: 0 17px;
+}
+
+.header-bg-buttons button a {
+	color: #fff;
+	font-size: 24px;
+	font-family: MontserratBold;
+	text-decoration: none;
+
+	width: 236px;
+	height: 68px;
+	line-height: 68px;
+	display: inline-block;
+}
+
+.header-bg-buttons button:last-child {
+	background-color: transparent;
+	border: 1px solid #fff;
+}
+.header-bg-buttons button:first-child {
+	background-color: #fa4a0c;
+	border: none;
+}
+
+.header-bg-wrap-cellPhones {
+	position: absolute;
+	top: 315px;
+	width: 100%;
+}

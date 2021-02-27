@@ -38,7 +38,30 @@
 }
 
 @font-face {
-	font-family: 'SemiBold';
-	src: local('SemiBold'),
+	font-family: 'MontserratSemiBold';
+	src: local('MontserratSemiBold'),
 		url(./fonts/Montserrat-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'MontserratBold';
+	src: local('MontserratBold'),
+		url(./fonts/Montserrat-Bold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'MontserratMedium';
+	src: local('MontserratMedium'),
+		url(./fonts/Montserrat-Medium.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'PoppinsBold';
+	src: local('PoppinsBold'), url(./fonts/Poppins-Bold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'PoppinsSemiBold';
+	src: local('PoppinsSemiBold'),
+		url(./fonts/Poppins-SemiBold.ttf) format('truetype');
 }

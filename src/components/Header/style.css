@@ -1,3 +1,8 @@
+.conteiner {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
 .wrap {
 	display: flex;
 	height: 156px;
@@ -11,14 +16,14 @@ ul {
 	height: 48px;
 	list-style: none;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 ul > li a {
 	font-size: 16px;
 	color: #252b42;
 	text-decoration: none;
-	font-family: SemiBold;
+	font-family: MontserratSemiBold;
 }
 ul > li a:hover {
 	color: #fa4a0c;
