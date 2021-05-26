@@ -5,20 +5,23 @@
 	align-items: center;
 	margin-left: 70px;
 	margin-right: 40px;
+	@media (max-width: 1200px) {
+		height: 110px;
+	}
 }
 ul {
 	width: 580px;
 	height: 48px;
 	list-style: none;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 ul > li a {
 	font-size: 16px;
 	color: #252b42;
 	text-decoration: none;
-	font-family: SemiBold;
+	font-family: MontserratSemiBold;
 }
 ul > li a:hover {
 	color: #fa4a0c;
