@@ -6,11 +6,45 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-ul {
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	margin: 0;
 	padding: 0;
 }
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
+}
+
+.conteiner {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+@media (max-width: 1440px) {
+	.conteiner {
+		max-width: 1200px;
+	}
+}
+@media (max-width: 1200px) {
+	.conteiner {
+		max-width: 970px;
+	}
+}
+
+@media (max-width: 992px) {
+	.conteiner {
+		max-width: 750px;
+	}
+}
+
+@media (max-width: 767px) {
+	.conteiner {
+		max-width: none;
+	}
 }

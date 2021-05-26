@@ -1,26 +1,26 @@
 import React from 'react';
-import './style.css';
+import './style.scss';
 import logo from '../../images/logo.svg';
 
 export const Header = () => {
 	return (
-		<div className='conteiner'>
-			<div className='wrap'>
+		<div className="conteiner">
+			<div className="wrap">
 				<div>
-					<img src={logo} alt='logo' />
+					<img src={logo} alt="logo" />
 				</div>
 				<ul>
 					<li>
-						<a href='//#region'>Home</a>
+						<a href="##">Home</a>
 					</li>
 					<li>
-						<a href='//#region'>Product</a>
+						<a href="##">Product</a>
 					</li>
 					<li>
-						<a href='//#region'>Faq</a>
+						<a href="##">Faq</a>
 					</li>
 					<li>
-						<a href='//#region'>Contact</a>
+						<a href="##">Contact</a>
 					</li>
 				</ul>
 			</div>

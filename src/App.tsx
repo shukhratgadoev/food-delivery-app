@@ -5,7 +5,7 @@ import { Footer } from './components/Footer/Footer';
 import { Header } from './components/Header/Header';
 import { HeaderBg } from './components/HeaderBg/HeaderBg';
 
-function App() {
+const App: React.FC = () => {
 	return (
 		<div className='App'>
 			<Header />
@@ -14,6 +14,6 @@ function App() {
 			<Footer />
 		</div>
 	);
-}
+};
 
 export default App;
